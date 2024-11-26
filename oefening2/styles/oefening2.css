@@ -1,23 +1,111 @@
 /*******************************/
 /* CODE VOOR HET EERSTE BLOKJE */
 /*******************************/
+@font-face {
+    font-family: 'Han';
+    src: url(../fonts/BlackHan.ttf)
+}
+
+/* background !! */
 
 
+li:nth-of-type(1) {
+    background-color: grey;
+    display: grid;
+    grid-auto-columns: min-content;
+    place-content: center;
+    text-align: center;
+}
+
+li:nth-of-type(1) p {
+    font-family: 'Han';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    text-shadow: 20px 10px 15px rgb(0 0 0/.8);
+    color: grey;
+}
+
+
+/* 
+font-family: 'Saira';
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--color);
+  text-shadow: 4px 4px var(--shadow);
+  letter-spacing: 5px;
+  transform: skewY(350deg);
+  text-align: center; */
 
 
 
 /*******************************/
 /* CODE VOOR HET TWEEDE BLOKJE */
 /*******************************/
+@font-face {
+    font-family: 'Han';
+    src: url(../fonts/BlackHan.ttf);
+}
 
+li:nth-of-type(2) {
+    display: grid;
+    grid-auto-columns: min-content;
+    place-content: center;
+    text-align: center;
+    background-image: linear-gradient(45deg, #0606e8 50%, #e10606 50%);
+}
 
+li:nth-of-type(2) p {
+    font-family: 'Han';
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: white;
+    transform: rotate(45deg);
+}
 
+li:nth-of-type(2) p em {
+    font-style: normal;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
 
 
 /******************************/
 /* CODE VOOR HET DERDE BLOKJE */
 /******************************/
+@font-face {
+    font-family: 'Archivo';
+    src: url(../fonts/Archivo-SemiBold.ttf)
+}
 
+li:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:nth-of-type(3) span {
+    font-family: 'Archivo';
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+li:nth-of-type(3) span:nth-of-type(1) {
+    color: #6da2e8;
+    opacity: 40%;
+}
+
+li:nth-of-type(3) span:nth-of-type(2) {
+    color: #e86dcb;
+    opacity: 40%;
+}
 
 
 
@@ -41,4 +129,3 @@
 /******************************/
 /* CODE VOOR HET ZESDE BLOKJE */
 /******************************/
-
